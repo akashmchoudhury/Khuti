@@ -1,4 +1,4 @@
-/* Base Reset */
+
 * {
     text-decoration: none;
     margin: 0;
@@ -11,7 +11,7 @@ body, html {
     font-family: 'Times New Roman', Times, serif;
 }
 
-/* Navbar */
+
 .navbar {
     background-color: #b97cda;
     padding: 10px 20px;
@@ -53,18 +53,17 @@ body, html {
     transition: all 0.3s ease;
 }
 
-/* Content Layout */
+
 .content-area {
     display: flex;
-    flex-direction: row; /* Horizontal columns */
-    align-items: flex-start; /* Align top */
+    flex-direction: row; 
+    align-items: flex-start; 
     justify-content: center;
     padding: 30px;
     gap: 30px;
-    flex-wrap: wrap; /* Wrap on smaller screens */
+    flex-wrap: wrap;
 }
 
-/* Columns */
 .image-stack {
     flex: 1;
     min-width: 220px;
@@ -92,7 +91,6 @@ body, html {
     min-width: 250px;
 }
 
-/* Text Block */
 .text-block h2 {
     font-size: 24px;
     color: #630375;
@@ -122,7 +120,6 @@ body, html {
     transition: all 0.3s ease;
 }
 
-/* Hero Section */
 .hero {
     text-align: center;
     padding: 60px 20px;
@@ -141,7 +138,6 @@ body, html {
     cursor: pointer;
 }
 
-/* Role Selector */
 .user-roles {
     margin-top: 60px;
     text-align: center;
@@ -161,7 +157,6 @@ body, html {
     background: #f5f5f5;
 }
 
-/* Offer Section */
 .offer-section {
     margin: 60px 20px;
     text-align: center;
@@ -179,7 +174,7 @@ body, html {
     color: #333;
 }
 
-/* About Section */
+
 .about-section {
     margin: 60px 20px;
     text-align: center;
@@ -191,7 +186,7 @@ body, html {
     font-size: 16px;
 }
 
-/* FAQ Section */
+
 .faq {
     margin: 60px 20px;
     text-align: center;
@@ -201,7 +196,7 @@ body, html {
     font-size: 16px;
 }
 
-/* Stats Section */
+
 .stats {
     text-align: center;
     margin: 60px 0;
@@ -209,7 +204,6 @@ body, html {
     color: #444;
 }
 
-/* Demo Section */
 .demo {
     text-align: center;
     margin: 60px 20px;
@@ -227,7 +221,7 @@ body, html {
     background-color: #630375;
 }
 
-/* Final CTA */
+
 .final-cta {
     text-align: center;
     padding: 40px;
@@ -246,7 +240,7 @@ body, html {
     background-color: #0056b3;
 }
 
-/* Footer */
+
 footer {
     margin-top: 40px;
     padding-top: 20px;
@@ -264,7 +258,6 @@ footer p:last-child {
     margin: auto;
 }
 
-/* Responsive: stack columns vertically on narrow screens */
 @media (max-width: 900px) {
     .content-area {
         flex-direction: column;

@@ -16,21 +16,20 @@
         </div>
     </nav>
     <div class="content-area">
-        <div class="column image-stack">
+        <div class="column image-stack" style="margin: 10px">
             <img src="../assets/lp1.jpg" alt="Photo 1">
-            <br>
             <img src="../assets/lp2.jpg" alt="Photo 2">
         </div>
 
         <div class="column text-block middle-column">
-            <div class="ad-section" style="text-align: center;">
+            <div class="ad-section" style="text-align: center; margin: 10px">
                 <h2>Discover the Art of Handcrafted Clothing</h2>
                 <p>Explore Jannat's unique collection of handmade, custom-sewed clothes, designed with love and care in Chittagong.</p>
 
                 <h2>Timeless Elegance with Every Stitch</h2>
                 <h3>Welcome to Khuti - dress by Jannat</h3>
                 <p style="text-align: justify;">
-                    Jannat's creations are more than just clothes—they are wearable art. Each piece is handcrafted with passion and attention to detail, using high-quality materials. Whether you're looking for traditional wear, modern outfits, or something uniquely personal, Khuti  offers a wide range of options tailored to your style and preferences. Join our community of satisfied customers and experience the craftsmanship that goes into every design.
+                    Jannat's creations are more than just clothes they are wearable art. Each piece is handcrafted with passion and attention to detail, using high-quality materials. Whether you're looking for traditional wear, modern outfits, or something uniquely personal, Khuti  offers a wide range of options tailored to your style and preferences. Join our community of satisfied customers and experience the craftsmanship that goes into every design.
                 </p>
                 <button onclick="location.href='product_page.php'" style="align-items: center;">Get Started</button>
 
@@ -69,9 +68,9 @@
         </div>
 
         <div class="column sidebar-column">
-           <section class="demo" style="text-align: center; margin: 60px 20px;">
+           <section class="demo" style="text-align: center; margin: 10px 20px;">
                 <h2>See the Magic of Handcrafted Clothes</h2>
-                <p>No need to visit the store—experience Khuti 's custom clothing online!</p>
+                <p>No need to visit the store experience Khuti 's custom clothing online!</p>
                 <br>
                 <button class="button button--large--cta" style="width: 95%; margin: 0 auto; " onclick="location.href='demo.php'">Try Demo</button>
                 
